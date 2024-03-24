@@ -1,0 +1,14 @@
+import { Module } from "@nestjs/common";
+
+@Module({
+    imports: [],
+    controllers: [],
+    providers: [],
+})
+export class ChatModule {
+    constructor() {
+        console.log('ChatModule')
+    }
+}
+
+
